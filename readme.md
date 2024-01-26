@@ -16,6 +16,21 @@ Crea un nuevo repositorio en GitHub.
 Copia el URL del repositorio que acabas de crear en GitHub
     https://github.com/kike-nine/LaboratorioGit
 Conecta tu repositorio local con el repositorio en GitHub.
-    git clone git@github.com:kike-nine/LaboratorioGit.git
+    git add .
+    git commit -m "archivo readme con la explicación"
+    git remote add origin git@github.com:kike-nine/LaboratorioGit.git
+    git push --set-upstream origin master
 Verifica que la conexión se haya establecido correctamente.
-    
+    Se ha subido correctamente en GitHub en la rama master.
+
+3. Hacer un commit y un push
+
+Crea un archivo en la carpeta del repositorio.
+    Hola.html
+Añade el archivo al staging.
+    "git add ." y luego "git status" para comprobar si el arhivo está listo para hacer commit.
+Crea un commit con un mensaje descriptivo.
+    git commit -m "Haciendo el commit del archivo Hola.html"
+    git status para comprobar que se ha realizado correctamente.
+Sube los cambios al repositorio en GitHub.
+    git push (cambio realizado con existo en GitHub).
